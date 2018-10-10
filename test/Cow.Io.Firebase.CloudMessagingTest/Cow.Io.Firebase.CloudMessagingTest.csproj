@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cow.io.Firebase.CloudMessaging\Cow.io.Firebase.CloudMessaging.csproj" />
+    <ProjectReference Include="..\..\src\Cow.io.Firebase.CloudMessaging\Cow.io.Firebase.CloudMessaging.csproj" />
   </ItemGroup>
 
 </Project>

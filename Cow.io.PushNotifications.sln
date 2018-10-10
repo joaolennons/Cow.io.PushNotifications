@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.io.Firebase.CloudMessaging", "Cow.io.Firebase.CloudMessaging\Cow.io.Firebase.CloudMessaging.csproj", "{7724F84A-9C28-4E59-8AB2-78FCC148E5B7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.Io.Firebase.CloudMessagingTest", "Cow.Io.Firebase.CloudMessagingTest\Cow.Io.Firebase.CloudMessagingTest.csproj", "{8BB488F7-38F4-4068-B088-C4E20AD6A1FA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cow.io.PushNotification", "Cow.io.PushNotification\Cow.io.PushNotification.csproj", "{4908A880-1D73-485E-B15F-07251436B0BF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C09F4002-4575-4487-955E-4FE7716CAD18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F959B699-30EA-4692-AC89-D8EA58BE9382}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.Io.Firebase.CloudMessagingTest", "test\Cow.Io.Firebase.CloudMessagingTest\Cow.Io.Firebase.CloudMessagingTest.csproj", "{5B46238A-C505-47C2-8396-2AF0F771E2EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.io.Firebase.CloudMessaging", "src\Cow.io.Firebase.CloudMessaging\Cow.io.Firebase.CloudMessaging.csproj", "{1BEC6237-1395-4594-88EC-8319AC0F917C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.io.PushNotification", "src\Cow.io.PushNotification\Cow.io.PushNotification.csproj", "{60C47C46-ADC5-400F-AC56-CA59311746E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7724F84A-9C28-4E59-8AB2-78FCC148E5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7724F84A-9C28-4E59-8AB2-78FCC148E5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7724F84A-9C28-4E59-8AB2-78FCC148E5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7724F84A-9C28-4E59-8AB2-78FCC148E5B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BB488F7-38F4-4068-B088-C4E20AD6A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BB488F7-38F4-4068-B088-C4E20AD6A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BB488F7-38F4-4068-B088-C4E20AD6A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BB488F7-38F4-4068-B088-C4E20AD6A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4908A880-1D73-485E-B15F-07251436B0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4908A880-1D73-485E-B15F-07251436B0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4908A880-1D73-485E-B15F-07251436B0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4908A880-1D73-485E-B15F-07251436B0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B46238A-C505-47C2-8396-2AF0F771E2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B46238A-C505-47C2-8396-2AF0F771E2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B46238A-C505-47C2-8396-2AF0F771E2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B46238A-C505-47C2-8396-2AF0F771E2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEC6237-1395-4594-88EC-8319AC0F917C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEC6237-1395-4594-88EC-8319AC0F917C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEC6237-1395-4594-88EC-8319AC0F917C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEC6237-1395-4594-88EC-8319AC0F917C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7724F84A-9C28-4E59-8AB2-78FCC148E5B7} = {C09F4002-4575-4487-955E-4FE7716CAD18}
-		{8BB488F7-38F4-4068-B088-C4E20AD6A1FA} = {F959B699-30EA-4692-AC89-D8EA58BE9382}
-		{4908A880-1D73-485E-B15F-07251436B0BF} = {C09F4002-4575-4487-955E-4FE7716CAD18}
+		{5B46238A-C505-47C2-8396-2AF0F771E2EB} = {F959B699-30EA-4692-AC89-D8EA58BE9382}
+		{1BEC6237-1395-4594-88EC-8319AC0F917C} = {C09F4002-4575-4487-955E-4FE7716CAD18}
+		{60C47C46-ADC5-400F-AC56-CA59311746E5} = {C09F4002-4575-4487-955E-4FE7716CAD18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A512492-AC15-43F5-902D-D6F8BF69AEB3}
