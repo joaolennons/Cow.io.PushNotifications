@@ -27,8 +27,8 @@ var notification = new PushNotification <br />
      Text = $"{notification text goes here}",<br />
      Receiver = "${your-device-token-here}"<br />
 };
-```
 
 var response = await dispatcher.Dispatch(notification);
+```
 
 That's it!
