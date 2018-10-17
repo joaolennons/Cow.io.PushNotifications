@@ -9,21 +9,25 @@ Provides simple structure for sending push notifications through firebase cloud 
 
 1. Use the IServiceCollection extension method from Cow.io.Firebase.CloudMessaging namespace:
 
+```
 services.AddFirebaseCloudMessagingDependency(o =>
 {
      o.WithToken("{your-firebase-api-token-here");
 });
+```
 
 2. Inject IPushNotificationDispatcher interface in the class you want to send push notifications
 
 3. Use the following statement to send the message 
 
-> var notification = new PushNotification <br />
-> { <br />
->	Title = "{the notification title goes here}",<br />
->       Text = $"{notification text goes here}",<br />
->       Receiver = "${your-device-token-here}"<br />
-> };
+```
+var notification = new PushNotification <br />
+{
+     Title = "{the notification title goes here}",<br />
+     Text = $"{notification text goes here}",<br />
+     Receiver = "${your-device-token-here}"<br />
+};
+```
 
 var response = await dispatcher.Dispatch(notification);
 
