@@ -18,11 +18,11 @@ services.AddFirebaseCloudMessagingDependency(o =>
 
 3. Use the following statement to send the message 
 
-var notification = new PushNotification
- {
-	Title = "{the notification title goes here}",
-        Text = $"{notification text goes here}",
-        Receiver = "${your-device-token-here}"
+var notification = new PushNotification <br />
+ { <br />
+	Title = "{the notification title goes here}",<br />
+        Text = $"{notification text goes here}",<br />
+        Receiver = "${your-device-token-here}"<br />
 };
 
 var response = await dispatcher.Dispatch(notification);
