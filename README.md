@@ -1,3 +1,7 @@
+#nuget
+Install-Package Cow.io.PushNotification -Version 1.0.0 -> abstractions
+Install-Package Cow.io.Firebase.CloudMessaging -Version 1.0.0 -> fcm implementation
+
 # Cow.io.PushNotifications
 Provides simple structure for sending push notifications through firebase cloud messaging (FCM) for .net core
 
