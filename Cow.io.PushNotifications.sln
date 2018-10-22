@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.io.Firebase.CloudMessag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cow.io.PushNotification", "src\Cow.io.PushNotification\Cow.io.PushNotification.csproj", "{60C47C46-ADC5-400F-AC56-CA59311746E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cow.io.OneSignal", "src\Cow.io.OneSignal\Cow.io.OneSignal.csproj", "{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60C47C46-ADC5-400F-AC56-CA59311746E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{5B46238A-C505-47C2-8396-2AF0F771E2EB} = {F959B699-30EA-4692-AC89-D8EA58BE9382}
 		{1BEC6237-1395-4594-88EC-8319AC0F917C} = {C09F4002-4575-4487-955E-4FE7716CAD18}
 		{60C47C46-ADC5-400F-AC56-CA59311746E5} = {C09F4002-4575-4487-955E-4FE7716CAD18}
+		{4503ED21-C3F3-4E82-A3E8-D1C91E9BCD74} = {C09F4002-4575-4487-955E-4FE7716CAD18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A512492-AC15-43F5-902D-D6F8BF69AEB3}
