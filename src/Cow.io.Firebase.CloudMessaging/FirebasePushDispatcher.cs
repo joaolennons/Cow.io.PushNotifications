@@ -26,6 +26,7 @@ namespace Cow.io.Firebase.CloudMessaging
             var push = new FirebasePushNotification.Builder()
                        .WithTitle(notification.Title)
                        .WithText(notification.Text)
+                       .WithData(notification.Data)
                        .SendTo(notification.Receiver)
                        .Build();
 

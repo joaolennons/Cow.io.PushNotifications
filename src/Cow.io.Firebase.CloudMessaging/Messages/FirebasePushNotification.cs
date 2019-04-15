@@ -1,5 +1,4 @@
-﻿using Cow.io.PushNotification;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace Cow.io.Firebase.CloudMessaging
 {
@@ -33,6 +32,12 @@ namespace Cow.io.Firebase.CloudMessaging
             public Builder WithText(string text)
             {
                 _notification.Body.Text = text;
+                return this;
+            }
+
+            public Builder WithData(object data)
+            {
+                _notification.Data = data;
                 return this;
             }
 

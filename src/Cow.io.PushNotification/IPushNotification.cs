@@ -5,5 +5,6 @@
         string Title { get; }
         string Text { get; }
         string Receiver { get; }
+        object Data { get; }
     }
 }
